@@ -1,0 +1,10 @@
+public class isitreallysixthough
+{
+	public static void main(String[] args)
+	{
+		int result = Integer.parseInt(args[0]);
+		assert result == 6 : "Invalid number: " + args[0];
+
+		System.out.println("Hmm, you entered" + args[0]);
+	}
+}

@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class sixquestion
+{
+	public static void main(String args[])
+	{
+		Scanner input = new Scanner(System.in);
+		System.out.print("Enter six...if you dare!! Mwahaha");
+		int Num = inputnextInt();
+		assert (Num >=5 && Num<=7): "The Number you entered isn't six!" + Num;
+		System.out.printf("You entered this: %d/n" , Num);
+	}
+}
